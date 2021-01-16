@@ -8,12 +8,11 @@ Red Fox in the Snow Optimization Algorithm for Solving Pressure Vessel Design Pr
 RFSOA is based on hunting behavior of Red Fox.<br/>
 This is a new metaheuristic algorithm that can be applied to solve different problem.<br/>
 <br/>
-<b>RFSOA implementation includes five matlab files:</b><br/>
+<b>RFSOA implementation includes four matlab files:</b><br/>
 Get_Functions_details.m<br/>
 initialization.m<br/>
 RFSOA.m<br/>
 main.m<br/>
-ReadMe.m<br/>
 <br/>
 <b>Get_Functions_details.m:</b> includes the standard benchmark functions<br/>
 <b>initialization.m:</b> it is used to initialize the population of red fox<br/>
