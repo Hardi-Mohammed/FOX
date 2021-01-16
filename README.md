@@ -20,7 +20,7 @@ initialization.m: it is used to initialize the population of red fox<br/>
 RFSOA: includes both exploration and exploitation equation. <br/>
 In RFSOA objective functions are called which is inside Get_Functions_details.m<br/><br/>
 
-How it works:<br/>
+<b>How it works:</b><br/>
 main.m file is used to run the RFSOA algorithm<br/>
 then you can see the results<br/>
 all files must be in the same directory.
