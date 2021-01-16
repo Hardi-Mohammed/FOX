@@ -19,8 +19,9 @@ ReadMe.m<br/>
 <b>initialization.m:</b> it is used to initialize the population of red fox<br/>
 <b>RFSOA:</b> includes both exploration and exploitation equation. <br/>
 In RFSOA objective functions are called which is inside Get_Functions_details.m<br/><br/>
-
-<b>How it works:</b><br/>
 <b>main.m</b> file is used to run the RFSOA algorithm<br/>
+<br>
+<b>How it works:</b><br/>
+You only need to Run the <b>main.m</b> using matlab software<br/>
 then you can see the results<br/>
 all files must be in the same directory.
