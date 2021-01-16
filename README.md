@@ -18,7 +18,7 @@ ReadMe.m<br/>
 <b>Get_Functions_details.m:</b> includes the standard benchmark functions<br/>
 <b>initialization.m:</b> it is used to initialize the population of red fox<br/>
 <b>RFSOA:</b> includes both exploration and exploitation equation. <br/>
-In RFSOA objective functions are called which is inside Get_Functions_details.m<br/><br/>
+In RFSOA objective functions are called which is inside Get_Functions_details.m<br/>
 <b>main.m</b> file is used to run the RFSOA algorithm<br/>
 <br>
 <b>How it works:</b><br/>
