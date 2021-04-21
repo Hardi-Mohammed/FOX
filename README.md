@@ -23,4 +23,6 @@ In RFSO objective functions are called which is inside Get_Functions_details.m<b
 <b>How it works:</b><br/>
 You only need to Run the <b>main.m</b> using matlab software<br/>
 then you can see the results<br/>
+by running the main file RFSO runs 30 time ( each time includes 500 iterations)<br/>
+Results prints 30 best_Score and then shows the average of them<br/>
 all files must be in the same directory.
