@@ -1,10 +1,10 @@
-# RFSO
+# FOX
 Red Fox in the Snow Optimization Algorithm (RFSO) is a new proposed meta-heuristic algorithm which mimics the hunting behavior of red fox.<br/>
 Red Fox in the Snow Optimization Algorithm for Solving Pressure Vessel Design Problem.<br/>
  Authors: Hardi M. Mohammed, Tarik A. Rashid.<br/>
  RFSO is implemented by Hardi M. Mohammed<br/>
 
-# RFSO 
+# FOX 
 RFSO is based on hunting behavior of Red Fox.<br/>
 This is a new metaheuristic algorithm that can be applied to solve different problem.<br/>
 <br/>
