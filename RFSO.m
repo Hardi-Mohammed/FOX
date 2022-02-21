@@ -1,9 +1,8 @@
 % %
-%% RFSO 
-% Red Fox in the Snow Optimization Algorithm for Solving Pressure Vessel
-% Desing Problem.
+%%FOX 
+% FOX: A Fox-inspired Optimization Algorithm
 % Authors: Hardi M. Mohammed, Tarik A. Rashid.
-% RFSO is implemented by Hardi M. Mohammed
+% FOX is implemented by Hardi M. Mohammed
 %%
 function [Best_score,Best_pos]=RFSO(SearchAgents_no,Max_iter,lb,ub,dim,fobj)
 
@@ -14,7 +13,6 @@ MinT=inf;
 %Initialize the positions of search agents
 X=initialization(SearchAgents_no,dim,ub,lb);
  Distance_Fox_Rat=zeros(SearchAgents_no,dim);
-%Convergence_curve=zeros(1,Max_iter);
 
 l=0;% Loop counter
 % both c1 and c2 have different range value
@@ -57,8 +55,6 @@ while l<Max_iter
                         tt=sum(Time(i,:))/dim;
                         t=tt/2;
                         Jump=0.5*9.81* t^2;
-%                         Jump= bestP-Positions(i,:);
-                       % Positions(i,:)=Distance_Fox_Rat(i,:).*Jump * 0.18;
                        X(i,:)=Distance_Fox_Rat(i,:).*Jump * c1;
                             elseif p<=0.18
                                  Time(i,:)=rand(1,dim);
@@ -69,8 +65,6 @@ while l<Max_iter
                         tt=sum(Time(i,:))/dim;
                         t=tt/2;
                          Jump=0.5*9.81* t^2;
-%  Jump= bestP-Positions(i,:);
-                     %  Positions(i,:)=Distance_Fox_Rat(i,:).*Jump * 0.82;
                      X(i,:)=Distance_Fox_Rat(i,:).*Jump * c2;
                             end
                         if MinT>tt
