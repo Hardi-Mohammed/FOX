@@ -4,7 +4,7 @@
 % Authors: Hardi M. Mohammed, Tarik A. Rashid.
 % FOX is implemented by Hardi M. Mohammed
 %%
-function [Best_score,Best_pos]=RFSO(SearchAgents_no,Max_iter,lb,ub,dim,fobj)
+function [Best_score,Best_pos]=FOX(SearchAgents_no,Max_iter,lb,ub,dim,fobj)
 
 Best_pos=zeros(1,dim);
 Best_score=inf; %change this to -inf for maximization problems
