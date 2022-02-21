@@ -1,4 +1,4 @@
-%% This intialization function is taken from Mirjalili website to initialize the population
+%%This intialization function is taken from Mirjalili website to initialize the population
 % https://seyedalimirjalili.com/woa
 %%
 
