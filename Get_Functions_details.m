@@ -1,9 +1,8 @@
 % %
-%% RFSO 
-% Red Fox in the Snow Optimization Algorithm for Solving Pressure Vessel
-% Desing Problem.
+%% FOX
+%FOX: A Fox-inspired Optimization Algorithm.
 % Authors: Hardi M. Mohammed, Tarik A. Rashid.
-% RFSO is implemented by Hardi M. Mohammed
+% FOX is implemented by Hardi M. Mohammed
 %%
 
 % This function containts full information and implementations of the
@@ -177,7 +176,7 @@ function o = cec03(x)
 end
 
 % function cec04
-% Rastrigin’s Function 
+% Rastriginâ€™s Function 
 
 function o = cec04(x)
         dim = 10;
@@ -210,7 +209,7 @@ function o = cec04(x)
 end
 
 % function cec05
-% Griewangk’s Function
+% Griewangkâ€™s Function
 
 function o = cec05(x)
          dim = 10;
@@ -293,7 +292,7 @@ end
 
 
 % function cec07
-% Modified Schwefel’s Function
+% Modified Schwefelâ€™s Function
 function o = cec07(x)
 
  D = 10;
@@ -338,7 +337,7 @@ end
 
 
 % function cec08
-% Expanded Schaffer’s F6 Function
+% Expanded Schafferâ€™s F6 Function
 
 function o = cec08(x)
     
