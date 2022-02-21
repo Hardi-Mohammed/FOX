@@ -1,4 +1,4 @@
-% %
+
 %% FOX
 %FOX: A Fox-inspired Optimization Algorithm.
 % Authors: Hardi M. Mohammed, Tarik A. Rashid.
