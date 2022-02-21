@@ -1,5 +1,5 @@
 % %
-%% FOX 
+%%FOX 
 % FOX: A Fox-inspired Optimization Algorithm
 % Authors: Hardi M. Mohammed, Tarik A. Rashid.
 % FOX is implemented by Hardi M. Mohammed
@@ -38,12 +38,10 @@ while l<Max_iter
         end
     end
     a=2*(1-(l/Max_iter));
-%       a=4-l*((4)/Max_iter);   
      Jump=0;
-    
-     %%add
+   
      dir=rand;
-     %%
+
     for i=1:size(X,1)
         r=rand;    
         p=rand;
@@ -56,8 +54,6 @@ while l<Max_iter
                         tt=sum(Time(i,:))/dim;
                         t=tt/2;
                         Jump=0.5*9.81* t^2;
-%                         Jump= bestP-Positions(i,:);
-                       % Positions(i,:)=Distance_Fox_Rat(i,:).*Jump * 0.18;
                        X(i,:)=Distance_Fox_Rat(i,:).*Jump * c1;
                             elseif p<=0.18
                                  Time(i,:)=rand(1,dim);
@@ -68,8 +64,6 @@ while l<Max_iter
                         tt=sum(Time(i,:))/dim;
                         t=tt/2;
                          Jump=0.5*9.81* t^2;
-%  Jump= bestP-Positions(i,:);
-                     %  Positions(i,:)=Distance_Fox_Rat(i,:).*Jump * 0.82;
                      X(i,:)=Distance_Fox_Rat(i,:).*Jump * c2;
                             end
                         if MinT>tt
